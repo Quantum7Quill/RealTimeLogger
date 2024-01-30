@@ -34,3 +34,8 @@ Run the `aggregate_events.py` script to generate aggregated daily reports.
 ```bash
 ./aggregate_events.py -i input.json -o output.json
 ```
+
+If you want to update the existing summary report with new events without reprocessing all previous events, use the `--update` flag
+
+### Step 3: Check for the output
+Check the generated `output.json` file, which will contain the aggregated daily report of user events.
